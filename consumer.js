@@ -18,7 +18,7 @@ const consume = async () => {
     await consumer.run({
         eachMessage: async ({ topic, partition, message }) => {
             console.log([`TOPIC: ${topic}, PARTITION: ${partition}, message ${message.value.toString()}`]);
-        }
+        } 
     })
 
 }

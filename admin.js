@@ -3,7 +3,7 @@ const { kafka } = require("./client");
 // create a function to connect admin 
 const init = async () => {
     const admin = kafka.admin();
-    console.log("kafka connecting");
+    console.log("kafka connecting"); 
     await admin.connect();
     console.log("kafka connected");
 

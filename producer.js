@@ -17,7 +17,7 @@ const produce = async () => {
         }]
     })
 
-    await producer.disconnect();
+    await producer.disconnect(); 
 }
 
 produce();
